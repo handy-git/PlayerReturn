@@ -1,0 +1,53 @@
+name: PlayerReturn
+main: cn.handyplus.pln.PlayerReturn
+version: 1.0.7
+author: handy
+api-version: 1.13
+website: https://ricedoc.handyplus.cn/wiki/PlayerReturn/log/
+softdepend: [ PlaceholderAPI,PlayerTask, AuthMe ]
+description: 一个有点好用的玩家回归插件
+folia-supported: true
+commands:
+  playerReturn:
+    description: 玩家回归插件
+    aliases: [ pln ]
+permissions:
+  playerReturn.*:
+    description: 玩家回归插件
+    children:
+      playerReturn.reload: true
+      playerReturn.addShop: true
+      playerReturn.setReturn: true
+      playerReturn.view: true
+      playerReturn.convert: true
+      playerReturn.signIn: true
+      playerReturn.shop: true
+      playerReturn.task: true
+      playerReturn.coin: true
+  playerReturn.reload:
+    description: 重新加载配置
+    default: op
+  playerReturn.addShop:
+    description: 新增商店物品
+    default: op
+  playerReturn.setReturn:
+    description: 设置回归玩家
+    default: op
+  playerReturn.view:
+    description: 查看管理
+    default: op
+  playerReturn.convert:
+    description: 转化数据库
+    default: op
+  playerReturn.signIn:
+    description: 签到
+    default: true
+  playerReturn.shop:
+    description: 商店
+    default: true
+  playerReturn.task:
+    description: 任务
+    default: true
+  playerReturn.coin:
+    description: 积分相关
+    default: op

@@ -1,0 +1,58 @@
+title: "&0回归玩家列表"
+size: 54
+# 点击本菜单所有按钮播放的声音1.12+支持 优先级低
+# 音效列表 https://bukkit.windit.net/javadoc/org/bukkit/Sound.html
+sound: ""
+
+return:
+  name: '&8[&a${player_name}&8]'
+  material: PLAYER_HEAD
+  lore:
+    - ''
+    - '&f[ &c回归信息 &f]'
+    - ''
+    - '&8▪ &7玩家名称 &e ${player_name}'
+    - '&8▪ &7离线天数 &e ${day}'
+    - '&8▪ &7回归时间 &e ${return_time}'
+    - '&8▪ &7邀请玩家 &e ${invitee_player_name}'
+    - '&8▪ &7回归积分 &e ${number}'
+
+# 上一页
+previousPage:
+  enable: true
+  index: 48
+  name: "    &8[&a上一页&8]"
+  lore:
+    - '&8▪ &7点击打开上一页'
+    - '&8▪ &7当前页码 &a${pageNum}'
+    - '&8▪ &7总页码数 &a${count}'
+  # 材质
+  material: PAPER
+  isEnchant: false
+  custom-model-data: 0
+
+# 下一页
+nextPage:
+  enable: true
+  index: 50
+  name: "    &8[&a下一页&8]"
+  lore:
+    - '&8▪ &7点击打开下一页'
+    - '&8▪ &7当前页码 &a${pageNum}'
+    - '&8▪ &7总页码数 &a${count}'
+  # 材质
+  material: PAPER
+  isEnchant: false
+  # 自定义模型材质 1.14+生效 0为不生效
+  custom-model-data: 0
+
+# 分隔板
+pane:
+  enable: true
+  index: 0,1,2,3,4,5,6,7,8,9,18,27,36,45,17,26,35,44,45,46,47,49,51,52,53
+  material: black_stained_glass_pane
+  isEnchant: false
+  name: "        &8[&7分割板&8]"
+  lore:
+    - "&7哎呀,不要随便戳人家啦"
+  custom-model-data: 0

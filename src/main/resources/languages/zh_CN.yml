@@ -1,0 +1,51 @@
+# 没权限时候提醒
+noPermission: "&8[&c✘&8] &7你没有权限执行此命令"
+
+# 重载插件提醒
+reloadMsg: "&8[&a✔&8] &7插件重载完毕"
+
+# placeholderAPI提醒
+placeholderAPISucceedMsg: "&a已成功加载placeholderApi"
+placeholderAPIFailureMsg: "&7你的服务端没有安装PlaceholderApi哦 未启用自定义变量功能."
+
+# playerTask提醒
+playerTaskSucceedMsg: "&a已成功加载playerTask 启用回归任务功能."
+playerTaskFailureMsg: "&7你的服务端没有安装playerTask 未启用回归任务功能."
+
+# authme提醒
+authmeSucceedMsg: "&a已成功加载authme 自动兼容登陆数据."
+authmeFailureMsg: "&7你的服务端没有安装authme 不自动兼容登陆数据."
+
+# /pln help指令管理员出现的提醒
+helps:
+  - ""
+  - " &3Player&bReturn &8&l▪ &7米饭出品～"
+  - ""
+  - " &7命令: &f/pln &8[...]"
+  - " &7参数:"
+  - "   &8&l- &f reload   &7重载配置文件"
+  - "   &8&l- &f addShop [价格] (限购量)   &7添加手持物品到商店"
+  - "   &8&l- &f setReturn [玩家名]   &7设置为回归玩家"
+  - "   &8&l- &f view [类型]   &7查看并管理"
+  - "   &8&l- &f convert [类型]   &7转化数据库"
+  - "   &8&l- &f signIn   &7打开回归签到页面"
+  - "   &8&l- &f shop   &7打开回归商店页面"
+  - "   &8&l- &f task   &7打开回归任务页面"
+  - "   &8&l- &f coin [类型] [数量]  &7给予/设置/拿走积分"
+
+noPlayerFailureMsg: "&8[&c✘&8] &7该命令只能玩家执行"
+amountFailureMsg: "&4数量只能为大于0的数字"
+succeedMsg: "&8[&a✔&8] &7命令执行成功"
+failureMsg: "&8[&c✘&8] &7命令执行失败"
+paramFailureMsg: "&8[&c✘&8] &7参数错误"
+noReturnMsg: "&8[&c✘&8] &7您不是回归玩家"
+returnRemind: "&8[&a✔&8] &7您是尊贵的回归玩家"
+returnSignInRemind: " &8[&a回归签到&8]"
+returnShopRemind: " &8[&a回归商店&8]"
+returnTaskRemind: " &8[&a回归任务&8]"
+
+# 用于输入指令时候tab自动提醒帮助(只建议翻译,不建议更改)
+tabHelp:
+  price: "&7请输入需要回归积分."
+  limit: "&7请输入可购买次数"
+  coinAmount: "请输入金额,必须正整数"
